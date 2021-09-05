@@ -1,0 +1,23 @@
+@import '../../dist/css/custom';
+
+.navbar{
+    background-color: $green-gray !important;
+    
+    .nav-brand{
+        font-size: 25px;
+    }
+    .nav{
+        .btn{
+            background-color: none;
+            border:2px solid $green;
+            border-radius: 0px;
+            padding: 10px;
+            
+        }
+        .nav-link{
+            color: $green;
+        }
+    }
+    
+}
+

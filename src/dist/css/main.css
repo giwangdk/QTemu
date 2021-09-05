@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300;1,500;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: #A3BCB6 !important;
+}
+
+.navbar .nav-brand {
+  font-size: 25px;
+}
+
+.navbar .nav .btn {
+  background-color: none;
+  border: 2px solid #39603D;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+.navbar .nav .nav-link {
+  color: #39603D;
+}
+
+.hero-meetup {
+  background-color: #DADED4;
+  line-height: 2.5;
+}
+
+.hero-meetup .meetup-image {
+  background-color: #3C403D;
+  width: 200px;
+  height: 200px;
+}
+
+.hero-meetup .meeting-description .btn-join {
+  color: white;
+  background-color: #39603D !important;
+  border-radius: 0px;
+}
+/*# sourceMappingURL=main.css.map */
