@@ -46,4 +46,20 @@ body {
   background-color: #39603D !important;
   border-radius: 0px;
 }
+
+.card-content {
+  background-color: #DADED4;
+  line-height: 1.5;
+}
+
+.card-member {
+  background-color: #DADED4;
+}
+
+.card-member .card-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #3C403D;
+}
 /*# sourceMappingURL=main.css.map */
