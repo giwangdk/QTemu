@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import{
+    Container
+} from 'react-bootstrap';
 import './_meetup.scss';
 
 class Meetup extends Component{
@@ -6,14 +9,15 @@ class Meetup extends Component{
     render(){
         return(
             <div>
-                <div className="hero-meetup m-5 p-4">
+                <Container>
+                <div className="hero-meetup my-5 p-4">
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-3 mr-3">
                             <div className="meetup-image">
                                 
                             </div>
                         </div>
-                        <div className="col-9">
+                        <div className="col-8">
                             <div className="meeting-description">
                                 <h3>Hacktiv 8 Meetup</h3>
                                 <table >
@@ -38,6 +42,7 @@ class Meetup extends Component{
                         </div>
                     </div>
                 </div>
+                </Container>
         </div>
         )
     }
