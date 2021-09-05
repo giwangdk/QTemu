@@ -3,4 +3,11 @@
 .card{
     background-color: $grey;
     border: none;
+    border-radius: 0px;
+    .btn{
+        background-color: $green;
+        color: white;
+        border-radius: 0px;
+    }
+
 }

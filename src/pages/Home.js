@@ -5,6 +5,7 @@ import NextMeet from '../components/NextMeet/NextMeet.js';
 import About from '../components/About/About.js';
 import Members from '../components/Members/Members.js';
 import PastMeetups from '../components/PastMeetups/PastMeetups.js';
+import Footer from '../components/Footer/Footer.js';
 
 class Home extends Component{
     render(){
@@ -17,6 +18,8 @@ class Home extends Component{
             <About/>
             <Members/>
             <PastMeetups/>
+            <Footer/>
+
             </div>
         )
     }
