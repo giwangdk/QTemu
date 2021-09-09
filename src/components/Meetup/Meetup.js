@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import{
     Container
 } from 'react-bootstrap';
-import './_meetup.scss';
 
 class Meetup extends Component{
 

@@ -4,7 +4,6 @@ import {
     Container,
     Nav
 } from 'react-bootstrap';
-import  styles  from './_header.scss';
 
 class Header extends Component{
 

@@ -4,7 +4,6 @@ import{
     Col,
     Card
 } from 'react-bootstrap';
-import './_cardmeetup.scss';
 
 const CardMeetup = ({events})=>{
         return(

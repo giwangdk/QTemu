@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './_card-content.scss';
 
 class CardContent extends Component{
 

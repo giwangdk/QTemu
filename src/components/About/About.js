@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import{
     Container
 } from 'react-bootstrap';
-import './_about.scss';
 import CardContent from '../Card-content/CardContent';
 
 class NextMeet extends Component{

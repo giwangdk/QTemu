@@ -3,7 +3,6 @@ import{
     Row,
     Col
 } from 'react-bootstrap';
-import './_cardMember.scss';
 
 class CardMember extends Component{
 
