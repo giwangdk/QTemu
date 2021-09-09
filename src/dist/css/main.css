@@ -195,11 +195,11 @@ body {
 }
 
 .card {
-  background: #FFD369;
+  background: #393E46;
   border-radius: 15px;
   padding: 2em;
-  -webkit-box-shadow: 0 3px 6px #FFD369;
-          box-shadow: 0 3px 6px #FFD369;
+  -webkit-box-shadow: 0 3px 6px #393E46;
+          box-shadow: 0 3px 6px #393E46;
 }
 
 .card p {
