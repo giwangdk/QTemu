@@ -6,11 +6,26 @@ import styles from './_style.scss';
 
 export const ButtonType = {
     BUTTON: 'button',
-    OUTLINE: 'outline',
-    SOFT: 'soft',
-    GHOST: 'ghost',
-    LINK : 'link'
+    RESET: 'reset',
+    SUBMIT: 'submit',
+  }
 
+
+export const ButtonVariant = {
+    BUTTON_BLACK: 'button-black',
+    BUTTON_YELLOW: 'button-yellow',
+    BUTTON_LIGHTBLACK: 'button-light-black',
+    BUTTON_GREY: 'button-grey',
+    BUTTON_PRIMARY: 'button-primary',
+    OUTLINE_BLACK: 'outline-black',
+    OUTLINE_YELLOW: 'outline-yellow',
+    OUTLINE_LIGHTBLACK: 'outline-light-black',
+    OUTLINE_GREY: 'outline-grey',
+    OUTLINE_PRIMARY: 'outline-primary',
+    SOFT_BLACK: 'soft-black',
+    SOFT_YELLOW: 'soft-yellow',
+    SOFT_LIGHTBLACK: 'soft-light-black',
+    SOFT_GREY: 'soft-grey'
 }
 
 export const ButtonTheme = {
@@ -19,13 +34,7 @@ export const ButtonTheme = {
     PILL : 'pill'
 }
 
-export const ButtonVariant = {
-    PRIMARY: 'primary',
-    Secondary: 'secondary',
-    DANGER: 'danger',
-    WARNING: 'warning',
-    INFO : 'info'
-}
+
 
 export const ButtonSize = {
     SMALL: 'small',
@@ -38,9 +47,11 @@ const Button = (props) => {
     const { type, theme, variant, size, children, className, disabled, onClick } = props
     const classProps = classnames(
         styles.button,
+        styles.soft,
+        styles.outline,
         styles[type],
-        styles[theme],
         styles[variant],
+        styles[theme],
         styles[size],
         {
             [styles.disabled] :disabled
@@ -49,7 +60,7 @@ const Button = (props) => {
     )
 
     return (
-        <button onClick={onClick} disabled={disabled} className={classProps}>
+        <button onClick={onClick} type={type} disabled={disabled} className={classProps}>
             {children}
         </button>
     )
@@ -59,8 +70,8 @@ const Button = (props) => {
 
 Button.propTypes = {
     type: PropTypes.string,
+    variant:PropTypes.string,
     theme: PropTypes.string,
-    variant: PropTypes.string,
     size: PropTypes.string,
     onClick:PropTypes.func,
     children: PropTypes.node,
@@ -70,8 +81,8 @@ Button.propTypes = {
 
 Button.defaultProps = {
     type: ButtonType.BUTTON,
+    variant:ButtonVariant.BUTTON_YELLOW,
     theme: ButtonTheme.DEFAULT,
-    variant: ButtonVariant.PRIMARY,
     size: ButtonSize.MEDIUM,
     onClick: () => { },
     className: '',

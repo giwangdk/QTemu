@@ -1,0 +1,11 @@
+@import '../../../dist/css/main.scss';
+
+.card {
+    background: $yellow;
+    border-radius: 15px;
+    padding: 2em;
+    box-shadow: 0 3px 6px $yellow;
+    p {
+        margin-bottom: 2em;
+    }
+}
