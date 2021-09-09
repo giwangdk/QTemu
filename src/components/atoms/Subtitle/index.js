@@ -20,3 +20,5 @@ SubTitle.defaultProps = {
     classNames :'',
     children : ''
 }
+
+export default SubTitle;

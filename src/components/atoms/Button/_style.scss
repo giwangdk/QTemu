@@ -32,6 +32,9 @@
     &-primary{
         background-color: $primary;
     }
+    &-pink{
+        background-color: $pink;
+    }
 }
 
 .soft{
@@ -70,6 +73,10 @@
     &-primary{
         background-color: $primary;
         color: $primary;
+    }
+    &-pink{
+        background-color: $pink;
+        color: $pink;
     }
 }
 
@@ -122,6 +129,14 @@
         border: 1px solid $primary;
         &:hover{
             background-color: $primary;
+        }
+    }
+
+    &-pink{
+        color: $pink;
+        border: 1px solid $pink;
+        &:hover{
+            background-color: $pink;
         }
     }
 }

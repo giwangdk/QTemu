@@ -44,7 +44,11 @@ body {
 }
 
 .button-primary {
-  background-color: #4F8A8B;
+  background-color: #39A9CB;
+}
+
+.button-pink {
+  background-color: #F95959;
 }
 
 .soft {
@@ -81,8 +85,13 @@ body {
 }
 
 .soft-primary {
-  background-color: #4F8A8B;
-  color: #4F8A8B;
+  background-color: #39A9CB;
+  color: #39A9CB;
+}
+
+.soft-pink {
+  background-color: #F95959;
+  color: #F95959;
 }
 
 .outline {
@@ -134,12 +143,21 @@ body {
 }
 
 .outline-primary {
-  color: #4F8A8B;
-  border: 1px solid #4F8A8B;
+  color: #39A9CB;
+  border: 1px solid #39A9CB;
 }
 
 .outline-primary:hover {
-  background-color: #4F8A8B;
+  background-color: #39A9CB;
+}
+
+.outline-pink {
+  color: #F95959;
+  border: 1px solid #F95959;
+}
+
+.outline-pink:hover {
+  background-color: #F95959;
 }
 
 /* Size */

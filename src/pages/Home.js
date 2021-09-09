@@ -10,7 +10,7 @@ class Home extends Component{
             <div>
                 <p>gogo</p>
                 <Button className="button button-primary  small ">Learn More</Button>
-                <Button className="button button-yellow pill small mt-4 ">Learn More</Button>
+                <Button className="button button-pink pill small mt-4 ">Learn More</Button>
                 <Card className="card">
                     <Title>Hi halo!</Title>
                 </Card>

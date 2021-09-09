@@ -17,15 +17,18 @@ export const ButtonVariant = {
     BUTTON_LIGHTBLACK: 'button-light-black',
     BUTTON_GREY: 'button-grey',
     BUTTON_PRIMARY: 'button-primary',
+    BUTTON_PINK: 'button-pink',
     OUTLINE_BLACK: 'outline-black',
     OUTLINE_YELLOW: 'outline-yellow',
     OUTLINE_LIGHTBLACK: 'outline-light-black',
     OUTLINE_GREY: 'outline-grey',
     OUTLINE_PRIMARY: 'outline-primary',
+    OUTLINE_PINK: 'outline-pink',
     SOFT_BLACK: 'soft-black',
     SOFT_YELLOW: 'soft-yellow',
     SOFT_LIGHTBLACK: 'soft-light-black',
-    SOFT_GREY: 'soft-grey'
+    SOFT_GREY: 'soft-grey',
+    SOFT_PINK: 'soft-pink'
 }
 
 export const ButtonTheme = {
