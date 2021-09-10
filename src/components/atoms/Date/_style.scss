@@ -1,11 +1,5 @@
 @import '../../../dist/css/variables';
 
-.card {
-    background: $light-black;
-    border-radius: 20px;
-    padding: 2em;
-    box-shadow: 0 3px 6px $light-black;
-    p {
-        margin-bottom: 2em;
-    }
+.date {
+    font-weight: 500;
 }

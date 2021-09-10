@@ -2,12 +2,11 @@ import React from 'react'
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
 
-import styles from './_styles.scss'
 
 const Anchor = (props) => {
     const { classNames, children } = props
     return (
-        <a className={classnames(styles.anchor, classNames)}>{children}</a>
+        <a className={classnames( classNames)}>{children}</a>
     )
 }
 

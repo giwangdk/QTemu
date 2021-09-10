@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Button from '../components/atoms/Button'
 import Card from '../components/atoms/Card'
 import Title from '../components/atoms/Title'
+import CardContent from '../components/organism/CardContent'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Home extends Component{
@@ -14,6 +15,8 @@ class Home extends Component{
                 <Card className="card">
                     <Title>Hi halo!</Title>
                 </Card>
+
+                <CardContent/>
             </div>
         )
     }

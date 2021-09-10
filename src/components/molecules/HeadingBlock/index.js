@@ -12,7 +12,7 @@ import styles from './_style.scss'
 const HeadingBlock = (props) => {
     const { className, title, anchor } = props;
     return (
-        <div className={classnames(styles.heading_block, className)}>
+        <div className={classnames(styles.block_heading, className)}>
          <div className="row">
             <div className="col-8">
                 <Title>{title}</Title>

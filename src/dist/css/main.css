@@ -194,9 +194,13 @@ body {
   cursor: default;
 }
 
+.date {
+  font-weight: 500;
+}
+
 .card {
   background: #393E46;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 2em;
   -webkit-box-shadow: 0 3px 6px #393E46;
           box-shadow: 0 3px 6px #393E46;
@@ -216,5 +220,36 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   color: #EEEEEE;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.anchor:hover {
+  color: #FFD369;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #EEEEEE;
+  font-size: 30px;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

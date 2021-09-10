@@ -12,7 +12,7 @@ const Block = (props) => {
     const { className, title, subtitle, children } = props;
     return (
     <div className={classnames(styles.block, className)}>
-        <HeadingBlock title={title} subtitle={subtitle} className="my-3" />
+        <HeadingBlock title={title} subtitle={subtitle} className="block_heading my-3" />
         {children}
     </div>
     )
