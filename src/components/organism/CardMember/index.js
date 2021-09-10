@@ -2,23 +2,22 @@ import React from 'react'
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
 
-import styles from './_styles.scss'
+import styles from './_style.scss';
 
-const Anchor = (props) => {
+const Title = (props) => {
     const { classNames, children } = props
     return (
-        <a className={classnames(styles.anchor, classNames)}>{children}</a>
     )
 }
 
-Anchor.propTypes = {
+Title.propTypes = {
     classNames : PropTypes.string,
     children : PropTypes.string
 }
 
-Anchor.defaultProps = {
-    classNames :'',
+Title.defaultProps = {
+    classNames : '',
     children : ''
 }
 
-export default Anchor;
+export default Title

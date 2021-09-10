@@ -1,5 +1,11 @@
-.subtitle{
-    font-weight: 600;
+.anchor{
+    text-decoration: none;
+    color: $white;
     letter-spacing: 1px;
-    color: $grey;
+    
+
+    &:hover{
+        color: $yellow;
+
+    }
 }

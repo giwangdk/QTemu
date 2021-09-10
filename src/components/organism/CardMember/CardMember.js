@@ -24,3 +24,4 @@ class CardMember extends Component{
 }
 
 export default CardMember;
+

@@ -4,21 +4,21 @@ import PropTypes from 'prop-types'
 
 import styles from './_styles.scss'
 
-const SubTitle = (props) => {
+const Brand = (props) => {
     const { classNames, children } = props
     return (
-        <h2 className={classnames(styles.subtitle, classNames)}>{children}</h2>
+        <a className={classnames(styles.brand, classNames)}>{children}</a>
     )
 }
 
-SubTitle.propTypes = {
+Brand.propTypes = {
     classNames : PropTypes.string,
     children : PropTypes.string
 }
 
-SubTitle.defaultProps = {
+Brand.defaultProps = {
     classNames :'',
     children : ''
 }
 
-export default SubTitle;
+export default Brand;
