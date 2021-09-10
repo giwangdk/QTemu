@@ -194,10 +194,6 @@ body {
   cursor: default;
 }
 
-.date {
-  font-weight: 500;
-}
-
 .card {
   background: #393E46;
   border-radius: 20px;
@@ -243,8 +239,8 @@ body {
 .brand {
   font-weight: 700;
   letter-spacing: 1px;
-  color: #EEEEEE;
-  font-size: 30px;
+  color: #F95959;
+  font-size: 50px;
 }
 
 .image {
