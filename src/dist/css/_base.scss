@@ -11,4 +11,9 @@ body{
     font-weight: 400;
     background-color: $black !important;
     color: $grey !important;
+
+    hr{
+        color: $yellow;
+      }
 }
+

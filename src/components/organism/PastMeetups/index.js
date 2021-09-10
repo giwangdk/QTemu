@@ -7,7 +7,7 @@ import CardEvent from '../../molecules/CardEvent'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const PastMeetup = () => {
-    const [events, setEvent] = useState([
+    const [events] = useState([
         {
             id: 36,
             date: "27 November 2017",
@@ -30,13 +30,16 @@ const PastMeetup = () => {
     );
     return (
         <Block className="block" title="Past Meetup" anchor="see all">
-            <Card className="card">
             <div className="card-content p-4">
-                    {events.map((event) => {
+                <div className="row">
+                {events.map((event) => (
+                    <div className="col-4">
                         <CardEvent date={event.date} event={event.company} guest={event.people} key={ event.id}/>
-                })}
+                        </div>
+            ))}
                 </div>
-            </Card>
+                    
+                </div>
         </Block>
     )
 }

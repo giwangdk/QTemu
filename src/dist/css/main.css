@@ -13,6 +13,10 @@ body {
   color: #EEEEEE !important;
 }
 
+hr {
+  color: #FFD369;
+}
+
 .button {
   -webkit-appearance: none;
   border: 0;

@@ -7,7 +7,7 @@ import styles from './_style.scss'
 
 
 const Date = (props) => (
-  <h5 className={classnames(styles.date, props.className)}>{props.children}</div>
+  <h5 className={classnames(styles.date, props.className)}>{props.children}</h5>
 )
 
 Date.propTypes = {

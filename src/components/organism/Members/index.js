@@ -8,12 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Member = () => {
     return (
-        <Block className="block" title="Next Meetup" anchor="see all">
-            <Card className="card">
+        <Block className="block" title="Members" anchor="see all">
             <div className="card-content p-4">
-                    <CardMember src="" subtitle="Organizers" member="Adhy Wiranata" total="4"/>
+                    <CardMember src="" subtitle="Organizers" member="Adhy Wiranata" total={4}/>
                 </div>
-            </Card>
         </Block>
     )
 }
