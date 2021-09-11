@@ -2,11 +2,25 @@
 
 
 .card {
-    background: $light-black;
-    border-radius: 20px;
-    padding: 2em;
-    box-shadow: 0 3px 6px $light-black;
-    p {
-        margin-bottom: 2em;
+    border-radius: 18px;
+    padding: 10px;
+    border: none;
+
+    &_dark{
+        background-color: $black;
     }
+    &_light{
+        background-color: $light-black;
+    }
+    &_yellow{
+        background-color: $yellow;
+    }
+    &_primary{
+        background-color: $primary;
+    }
+    &_pink{
+        background-color: $pink;
+    }
+
 }
+

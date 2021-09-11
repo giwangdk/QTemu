@@ -14,10 +14,10 @@ const HeadingBlock = (props) => {
     return (
         <div className={classnames(styles.block_heading, className)}>
          <div className="row">
-            <div className="col-8">
-                <Title>{title}</Title>
+            <div className="col-10">
+            <Title>{title}</Title>
             </div>
-            <div className="col-4">
+            <div className="col-2 text-right">
                 <Anchor>{anchor}</Anchor>
             </div>
         </div>

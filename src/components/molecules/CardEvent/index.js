@@ -13,14 +13,13 @@ const CardEvent = (props) => {
     const { date, event, guest } = props
     return (
         <Card className="card">
-            <div className="card-header">
+            <div className="card-header border-0 pb-0">
                 <Date>{ date}</Date>
             </div>
-            <hr />
             <div className="card-body">
                 <p>{event}</p>
                 <p>{guest} went</p>
-                <Button className="button button-yellow small">view</Button>
+                <Button className="button button-primary rounded d-block w-100 small">view</Button>
             </div>
         </Card>
     )

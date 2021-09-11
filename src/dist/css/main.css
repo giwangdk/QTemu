@@ -13,7 +13,7 @@ body {
   color: #EEEEEE !important;
 }
 
-hr {
+body hr {
   color: #FFD369;
 }
 
@@ -199,15 +199,29 @@ hr {
 }
 
 .card {
-  background: #393E46;
-  border-radius: 20px;
-  padding: 2em;
-  -webkit-box-shadow: 0 3px 6px #393E46;
-          box-shadow: 0 3px 6px #393E46;
+  border-radius: 18px;
+  padding: 10px;
+  border: none;
 }
 
-.card p {
-  margin-bottom: 2em;
+.card_dark {
+  background-color: #222831;
+}
+
+.card_light {
+  background-color: #393E46;
+}
+
+.card_yellow {
+  background-color: #FFD369;
+}
+
+.card_primary {
+  background-color: #39A9CB;
+}
+
+.card_pink {
+  background-color: #F95959;
 }
 
 .title {
@@ -224,8 +238,10 @@ hr {
 
 .anchor {
   text-decoration: none;
-  color: white;
+  color: white !important;
   letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 50px;
 }
 
 .anchor:hover {
@@ -243,8 +259,8 @@ hr {
 .brand {
   font-weight: 700;
   letter-spacing: 1px;
-  color: #F95959;
-  font-size: 50px;
+  color: #FFD369;
+  font-size: 30px;
 }
 
 .image {
