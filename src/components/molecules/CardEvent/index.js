@@ -14,7 +14,7 @@ const CardEvent = (props) => {
     return (
         <Card className="card">
             <div className="card-header border-0 pb-0">
-                <Date>{ date}</Date>
+                <Date className="date">{ date}</Date>
             </div>
             <div className="card-body">
                 <p>{event}</p>

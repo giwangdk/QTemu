@@ -1,15 +1,19 @@
-import React, {Component} from 'react';
-import{
-    Container
-} from 'react-bootstrap';
 
-class Meetup extends Component{
+import React from 'react';
 
-    render(){
-        return(
-            <div>
-                <Container>
-                <div className="hero-meetup my-5 p-4">
+import Block from '../../molecules/Block'
+import Card from '../../atoms/Card'
+import Button from '../../atoms/Button'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+
+const Meetup = () => {
+    return (
+        <Card className="card">
+            <div className="card-content">
+            <div className="hero-meetup my-5 p-4">
                     <div className="row">
                         <div className="col-3 mr-3">
                             <div className="meetup-image">
@@ -36,15 +40,15 @@ class Meetup extends Component{
                                         <td>Adhy Wiranata</td>
                                     </tr>
                                 </table>
-                                <div className="btn  btn-join"> Join Us</div>
+                                <Button className="outline outline-yellow rounded p-2 mt-3">Join Us</Button>
                             </div>
                         </div>
                     </div>
                 </div>
-                </Container>
-        </div>
-        )
-    }
+                
+                </div>
+        </Card>
+    )
 }
 
 export default Meetup;

@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './_style.scss'
 
 const Nav = () => (
-	<nav class="navbar fixed-top">
+	<nav class="navbar fixed-top ">
 		<div className="container">
 			<Brand className="brand">Qtemu</Brand>
 			<ul class="navbar-nav d-flex flex-row justify-content-between">
