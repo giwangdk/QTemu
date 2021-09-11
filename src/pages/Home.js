@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Layout from '../components/templa/Layout'
 
 import Meetup from '../components/organism/Meetup'
+import NextMeet from '../components/organism/NextMeet'
 import About from '../components/organism/About'
 import Members from '../components/organism/Members'
 import PastMeetup from '../components/organism/PastMeetups'
@@ -15,6 +16,7 @@ class Home extends Component{
             <div className="container">
                 <Layout>
                     <Meetup />
+                    <NextMeet/>
                     <About/>
                     <Members/>
                     <PastMeetup/>

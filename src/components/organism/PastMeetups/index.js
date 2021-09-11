@@ -30,10 +30,10 @@ const PastMeetup = () => {
     );
     return (
         <Block className="block" title="Past Meetup" anchor="see all">
-            <div className="card-content p-4">
+            <div className="card-content">
                 <div className="row">
                 {events.map((event) => (
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-12 mt-3">
                         <CardEvent date={event.date} event={event.company} guest={event.people} key={ event.id}/>
                         </div>
             ))}
