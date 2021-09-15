@@ -12,7 +12,7 @@ import Subtitle from '../../atoms/Subtitle'
 const CardMember = (props) => {
     const { src,alt, subtitle, member, total } = props
     return (
-        <Card className="card card_yellow">
+        <Card className="card mt-3">
             <div className="row">
                 <div className="col-4">
                     <Avatar className="avatar" src={ src} alt={alt }/>
