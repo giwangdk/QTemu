@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 
-import Layout from '../components/templa/Layout'
+import Layout from '../../components/templa/Layout'
 
-import Meetup from '../components/organism/Meetup'
-import NextMeet from '../components/organism/NextMeet'
-import About from '../components/organism/About'
-import Members from '../components/organism/Members'
-import PastMeetup from '../components/organism/PastMeetups'
+import Meetup from '../../components/organism/Meetup'
+import NextMeet from '../../components/organism/NextMeet'
+import About from '../../components/organism/About'
+import Members from '../../components/organism/Members'
+import PastMeetup from '../../components/organism/PastMeetups'
+
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 

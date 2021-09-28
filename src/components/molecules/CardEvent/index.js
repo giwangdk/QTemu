@@ -9,6 +9,9 @@ import Date from '../../atoms/Date'
 import Button from '../../atoms/Button'
 
 
+import styles from './style.scss';
+
+
 const CardEvent = (props) => {
     const { date, event, guest } = props
     return (

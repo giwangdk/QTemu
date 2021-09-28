@@ -5,7 +5,7 @@ import classnames from 'classnames'
 
 import HeadingBlock from '../HeadingBlock'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './_style.scss'
+import styles from './style.scss';
 
 
 const Block = (props) => {

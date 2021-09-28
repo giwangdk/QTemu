@@ -15,15 +15,15 @@ const PastMeetup = () => {
             people: 139
         },
         {
-            id: 36,
+            id: 37,
             date: "27 November 2017",
-            company: "JakartaJS April Meetup with Kumparan",
+            company: "JakartaJS April Meetup with BliBli",
             people: 139
         },
         {
-            id: 36,
+            id: 38,
             date: "27 November 2017",
-            company: "JakartaJS April Meetup with Kumparan",
+            company: "JakartaJS April Meetup with Hakctiv8",
             people: 139
         }
     ]
@@ -34,7 +34,7 @@ const PastMeetup = () => {
                 <div className="row">
                 {events.map((event) => (
                     <div className="col-lg-4 col-md-12 mt-3">
-                        <CardEvent date={event.date} event={event.company} guest={event.people} key={ event.id}/>
+                        {event && <CardEvent date={event.date} event={event.company} guest={event.people} key={ event.id}/>}
                         </div>
             ))}
                 </div>

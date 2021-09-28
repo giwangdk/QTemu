@@ -9,6 +9,9 @@ import Avatar from '../../atoms/Avatar'
 import Subtitle from '../../atoms/Subtitle'
 
 
+import styles from './style.scss';
+
+
 const CardMember = (props) => {
     const { src,alt, subtitle, member, total } = props
     return (

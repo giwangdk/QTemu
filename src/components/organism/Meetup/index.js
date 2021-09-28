@@ -8,6 +8,7 @@ import Button from '../../atoms/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+import styles from './style.module.scss';
 
 const Meetup = () => {
     return (

@@ -6,7 +6,8 @@ import classnames from 'classnames'
 import Title from '../../atoms/Title'
 import Anchor from '../../atoms/Anchor'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './_style.scss'
+
+import styles from './style.scss';
 
 
 const HeadingBlock = (props) => {

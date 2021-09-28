@@ -18,8 +18,7 @@ console.log(peoples)
                 <div>
                     <CardMember src="" subtitle="Organizers" member={people.name} total={4} key={people.name}/>
                 </div>
-            ))}
-            jghdjksghbnj    
+            ))}  
             </div>
         </Block>
     )
